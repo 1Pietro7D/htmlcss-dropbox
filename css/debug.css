@@ -106,12 +106,7 @@ main {
 #query > h3 {
   padding: 45px 0;
 }
-#query > * {
-  border-bottom: 2px solid gray;
-}
-#query > details {
-  padding: 40px 0;
-}
+
 /*** MAIN DEBUG **/
 
 /* footer */

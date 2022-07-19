@@ -34,6 +34,10 @@
   position: fixed;
 }
 
+.grid {
+  display: grid;
+}
+
 .green {
   color: rgb(3, 202, 3);
 }

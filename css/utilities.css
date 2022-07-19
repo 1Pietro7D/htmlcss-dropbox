@@ -1,0 +1,40 @@
+/***** UTILITIES *****/
+
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.column {
+  flex-direction: column;
+}
+.j-between {
+  justify-content: space-between;
+}
+.j-space {
+  justify-content: space-around;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+.al-center {
+  align-items: center;
+}
+
+.h100 {
+  height: 100vh;
+}
+.fixed {
+  position: fixed;
+}
+
+.green {
+  color: rgb(3, 202, 3);
+}
+/***** /UTILITIES *****/

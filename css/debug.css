@@ -1,0 +1,132 @@
+/***** DEBUG *****/
+
+#start-pages article {
+  background-color: aqua;
+  width: 30%;
+  height: 100%;
+}
+
+#start-pages {
+  background-color: hsl(207deg 52% 81%);
+  width: 100%;
+  height: 30vh;
+}
+ul {
+  background-color: aqua;
+  column-gap: 30px;
+}
+.image1 {
+  width: 60%;
+  height: 100%; /***** Oggi campione ti studi come risolvere sto discorso di grow e stretch, che non li sai ancora usare!!! l'alternativa è vendere banane in congo *****/
+  background-color: aqua;
+}
+
+p {
+  color: aliceblue;
+}
+
+/*** MAIN DEBUG **/
+
+main {
+  background-color: rgb(110, 118, 228);
+}
+/* shop */
+#shop {
+  background-color: yellow;
+  padding: 2vh 0;
+}
+#shop * {
+  background-color: red;
+  margin: 4px;
+}
+#tranne {
+  background-color: inherit;
+}
+#tranne > div {
+  width: 30%;
+  height: 400px;
+}
+
+#last-shop {
+  height: 100px;
+}
+
+/* shop */
+
+/* parter */
+#partner {
+  background-color: blue;
+}
+#partner > div {
+  width: 300px;
+  height: 300px;
+  background-color: aquamarine;
+  margin: 30px 0;
+}
+
+/* /parter */
+
+/* cards */
+
+#cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  gap: 30px;
+  padding: 30px;
+}
+#cards > * {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  height: 400px;
+}
+
+/* /cards */
+
+/* client */
+
+#miao,
+#bau {
+  padding: 30px 0;
+}
+
+.container-max#logo-grid {
+  background-color: black;
+}
+
+/*  vedere i box su container */
+
+/* /client */
+
+/* query */
+#query {
+  background-color: aqua;
+}
+
+#query > h3 {
+  padding: 45px 0;
+}
+#query > * {
+  border-bottom: 2px solid gray;
+}
+#query > details {
+  padding: 40px 0;
+}
+/*** MAIN DEBUG **/
+
+/* footer */
+
+#footer-box {
+  gap: 30px;
+}
+footer {
+  padding: 50px 0;
+}
+#foot-logo {
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
+  border-top: 3px solid red;
+}
+
+/***** /DEBUG *****/

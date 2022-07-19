@@ -22,7 +22,36 @@ nav {
 
 /***** /Generics *****/
 
+/****** CONTAINER ******/
+
+.container-estreme {
+  width: 80vw;
+  height: calc(30vh - 2.5vh);
+  margin: 2.5vh auto;
+}
+
+.container-center {
+  width: 70vw;
+  height: 1600px;
+  margin: auto;
+}
+
+/****** CONTAINER ******/
+
+.container-estreme {
+  background-color: blue;
+}
+.container-center {
+  background-color: rgb(0, 255, 128);
+}
+
 /***** DEBUG *****/
+
+#start-pages article {
+  background-color: aqua;
+  width: 30%;
+  height: 100%;
+}
 
 header > nav {
   background-color: brown;
@@ -38,13 +67,59 @@ ul {
   background-color: aqua;
   column-gap: 30px;
 }
-
-main {
-  background-color: rgb(0, 17, 255);
+.image1 {
+  width: 60%;
+  height: 100%; /***** Oggi campione ti studi come risolvere sto discorso di grow e stretch, che non li sai ancora usare!!! l'alternativa è vendere banane in congo *****/
+  background-color: aqua;
 }
+
 p {
   color: aliceblue;
 }
+
+/*** MAIN DEBUG **/
+
+main {
+  background-color: rgb(110, 118, 228);
+}
+/* shop */
+#shop {
+  background-color: yellow;
+  padding: 2vh 0;
+}
+#shop * {
+  background-color: red;
+  margin: 4px;
+}
+#tranne {
+  background-color: inherit;
+}
+#tranne > div {
+  width: 30%;
+  height: 400px;
+}
+
+#last-shop {
+  height: 100px;
+}
+
+/* shop */
+
+/* parter */
+#partner {
+  background-color: blue;
+}
+#partner > div {
+  width: 300px;
+  height: 300px;
+  background-color: aquamarine;
+  margin: 30px 0;
+}
+
+/* /parter */
+
+/*** MAIN DEBUG **/
+
 /***** /DEBUG *****/
 
 /***** UTILITIES *****/
@@ -58,6 +133,10 @@ p {
 .j-between {
   justify-content: space-between;
 }
+.j-space {
+  justify-content: space-around;
+}
+
 .j-center {
   justify-content: center;
 }

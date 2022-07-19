@@ -13,7 +13,6 @@ body {
 }
 header nav {
   height: 7.5vh;
-  width: 100vw;
 }
 #start-pages {
   margin-top: 7.5vh;
@@ -165,13 +164,16 @@ main {
 }
 
 /*tenere buono*/
+#logo-grid {
+  width: 100vw;
+}
 
 .container-box {
   width: calc(100vw / 3);
   height: calc(100vw / 3);
 }
 .box {
-  width: 50%;
+  width: calc(100vw / 6);
   height: 50%;
 }
 /*tenere buono*/

@@ -16,6 +16,17 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+.b-blue {
+  background-color: hsl(217deg 100% 50%);
+  color: #fff;
+  padding: 5px;
+  border: 0;
+}
+
 /***--- /Generics ---***/
 
 /***--- CONTENT ---***/
@@ -40,8 +51,15 @@ header nav {
   height: 7.5vh;
   width: 100%;
   position: fixed; /* attenzione esce dal flusso, compromesso: dare un valore di altezza fisso e dare un margin top equivalente */
-  padding: 10px 0;
+  padding: 10px 30px;
   background-color: #fff;
+}
+header > nav > ul {
+  column-gap: 30px;
+}
+
+button[value="get-start"] {
+  font-size: 1.2em;
 }
 
 #start-pages {

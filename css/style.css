@@ -11,5 +11,68 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+nav {
+  position: fixed;
+  height: 7.5vh;
+  width: 100vw;
+}
+#start-pages {
+  margin-top: 7.5vh;
+}
 
 /***** /Generics *****/
+
+/***** DEBUG *****/
+
+header > nav {
+  background-color: brown;
+  width: 100vw;
+  position: fixed; /* attenzione esce dal flusso, compromesso: dare un valore di altezza fisso e dare un margin top equivalente */
+}
+#start-pages {
+  background-color: hsl(207deg 52% 81%);
+  width: 100vw;
+  height: 30vh;
+}
+ul {
+  background-color: aqua;
+  column-gap: 30px;
+}
+
+main {
+  background-color: rgb(0, 17, 255);
+}
+p {
+  color: aliceblue;
+}
+/***** /DEBUG *****/
+
+/***** UTILITIES *****/
+
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.j-between {
+  justify-content: space-between;
+}
+.j-center {
+  justify-content: center;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+.al-center {
+  align-items: center;
+}
+
+.h100 {
+  height: 100vh;
+}
+.green {
+  color: rgb(3, 202, 3);
+}
+/***** /UTILITIES *****/

@@ -11,7 +11,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-nav {
+header nav {
   height: 7.5vh;
   width: 100vw;
 }
@@ -19,14 +19,29 @@ nav {
   margin-top: 7.5vh;
 }
 
+footer {
+  background-color: black;
+  color: #fff;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+}
+header nav {
+  padding: 10px 0;
+}
 /***** /Generics *****/
 
 /****** CONTAINER ******/
 
 .container-80vw {
   width: 80vw;
-  height: calc(30vh - 2.5vh);
-  margin: 2.5vh auto;
+  height: 100%;
+  margin: auto;
+  padding: 45px 0;
 }
 
 .container-70vw {
@@ -179,8 +194,22 @@ main {
 #query > details {
   padding: 40px 0;
 }
-
 /*** MAIN DEBUG **/
+
+/* footer */
+
+#footer-box {
+  gap: 30px;
+}
+footer {
+  padding: 50px 0;
+}
+#foot-logo {
+  background-color: aqua;
+  width: 200px;
+  height: 100px;
+  border-top: 3px solid red;
+}
 
 /***** /DEBUG *****/
 

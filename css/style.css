@@ -91,9 +91,15 @@ header img[src="img/jumbo.png"] {
 /*** SHOP section ***/
 
 #shop > * {
-  margin: 4px 0;
+  margin: 6px 0;
 }
-
+#shop {
+  padding: 2vh 0;
+}
+#shop > #payment-choice > label {
+  margin-right: 30px;
+  margin-left: 5px;
+}
 /*** /SHOP section ***/
 
 /*** PARTNER section ***/
@@ -186,9 +192,7 @@ footer a {
 footer .container-80vw {
   background-color: blue;
 }
-.container-70vw {
-  background-color: rgb(0, 255, 128);
-}
+
 .box,
 #principal {
   border: 5px solid red;

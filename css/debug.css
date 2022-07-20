@@ -6,14 +6,7 @@ p {
 
 /*** MAIN DEBUG **/
 
-main {
-  background-color: rgb(110, 118, 228);
-}
 /* shop */
-#shop {
-  background-color: yellow;
-  padding: 2vh 0;
-}
 
 #shop * {
   background-color: red;

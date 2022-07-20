@@ -21,7 +21,10 @@
     <!-- HEADER -->
 
     <header class="flex column">
+      <!-- NAV FIXED -->
       <nav class="container-max flex j-between">
+        <!-- first list -->
+
         <ul class="flex al-center">
           <li>
             <a href="index.html"
@@ -32,6 +35,10 @@
           <li><a href="#">Function</a></li>
           <li><a href="#">Plans and pricing</a></li>
         </ul>
+
+        <!-- first list -->
+        <!-- second list -->
+
         <ul class="flex al-center">
           <li><a href="#">Support</a></li>
           <li><a href="#">Contacts</a></li>
@@ -43,7 +50,11 @@
             </button>
           </li>
         </ul>
+        <!-- /second list -->
       </nav>
+      <!-- /NAV FIXED -->
+
+      <!-- JUMBO-TRON SECTION -->
       <section id="start-pages">
         <div class="container-80vw flex column">
           <h1>Lorem</h1>
@@ -70,6 +81,7 @@
           </div>
         </div>
       </section>
+      <!-- /JUMBO-TRON SECTION -->
     </header>
 
     <!-- /HEADER -->
@@ -81,8 +93,28 @@
         <!-- SHOP -->
 
         <section class="flex column" id="shop">
-          <h2>lorem</h2>
-          <div>ciao</div>
+          <h2>Find the bisness plan that's right for you</h2>
+
+          <!-- container payment choice -->
+          <div id="payment-choice" class="flex">
+            <!-- non serve aggiungere un allineamento centrale (al-cente=align-items: center) lungo la cross-axis con i radio di imput, dandogli solo flex-->
+            <input
+              id="monthly-payment"
+              name="payment"
+              type="radio"
+              value="monthly-payment"
+            />
+            <label for="monthly-payment">monthly payment</label>
+            <input
+              id="annual-payment"
+              name="payment"
+              type="radio"
+              value="annual-payment"
+            />
+            <label for="annual-payment">annual payment</label>
+          </div>
+          <!-- /container payment choice -->
+
           <div class="flex j-between" id="tranne">
             <div class="flex column"></div>
             <div class="flex column"></div>

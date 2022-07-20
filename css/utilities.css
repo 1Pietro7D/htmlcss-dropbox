@@ -12,7 +12,7 @@
 .j-between {
   justify-content: space-between;
 }
-.j-space {
+.j-around {
   justify-content: space-around;
 }
 
@@ -34,10 +34,18 @@
   position: fixed;
 }
 
+.al-between {
+  align-content: space-between;
+}
 .grid {
   display: grid;
 }
-
+.relative {
+  position: relative;
+}
+.top-45px {
+  top: 45px;
+}
 .green {
   color: rgb(3, 202, 3);
 }

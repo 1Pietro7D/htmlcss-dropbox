@@ -1,23 +1,5 @@
 /***** DEBUG *****/
 
-#start-pages article {
-  background-color: aqua;
-  width: 30%;
-  height: 100%;
-}
-
-#start-pages {
-  background-color: hsl(207deg 52% 81%);
-  width: 100%;
-  height: 30vh;
-}
-
-.image1 {
-  width: 60%;
-  height: 100%; /***** Oggi campione ti studi come risolvere sto discorso di grow e stretch, che non li sai ancora usare!!! l'alternativa è vendere banane in congo *****/
-  background-color: aqua;
-}
-
 p {
   color: aliceblue;
 }

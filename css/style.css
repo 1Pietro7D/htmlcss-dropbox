@@ -48,7 +48,6 @@ a {
 /****** HEADER ******/
 
 header nav {
-  height: 7.5vh;
   width: 100%;
   position: fixed; /* attenzione esce dal flusso, compromesso: dare un valore di altezza fisso e dare un margin top equivalente */
   padding: 10px 30px;
@@ -63,7 +62,26 @@ button[value="get-start"] {
 }
 
 #start-pages {
-  margin-top: 7.5vh;
+  margin-top: 52px; /* margine di distanziamento dal menù di navigazione fissato */
+  margin-bottom: 45px; /* margine di distanziamento per compensare lo spostamneto relativo del #jumbo-tron */
+  background-color: hsl(207deg 52% 81%);
+}
+
+.top-45px > article {
+  padding-bottom: 45px;
+}
+button[value="start-trial"] {
+  flex-grow: 0;
+}
+#start-pages article {
+  width: 30%;
+}
+
+#jumbo-tron > figure {
+  width: 65%;
+}
+header img[src="img/jumbo.png"] {
+  width: 100%;
 }
 
 /****** /HEADER ******/
@@ -165,7 +183,7 @@ footer a {
 
 /****** /CONTAINER ******/
 
-.container-80vw {
+footer .container-80vw {
   background-color: blue;
 }
 .container-70vw {

@@ -141,7 +141,7 @@ img[src="img/share.svg"] {
 
 /*** PARTNER section ***/
 
-img[alt="partner"] 
+img[alt="partner"] {
   width: 60%;
 }
 
@@ -155,9 +155,6 @@ img[alt="partner"]
   gap: 0 5%; /* ATTENZIONE usarlo anche ai lati alto e basso, fa uscire gli elementi al di fuori del suo contenitore, il che è malissimo, al contro se aggiungiamo un margine a i suoi elementi, allora no */
 }
 
-#cards > div > * {
-  border: 1px solid rgba(0, 0, 0, 0.8);
-}
 .card {
   margin: 5% 0; /* ATTENZIONE: essendo dentro un grid il margine verra preso ai contenitori stessi funzionando come una sorta di padding per quanto riguarda la larghezza */
 }

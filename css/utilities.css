@@ -1,5 +1,7 @@
 /***** UTILITIES *****/
-
+.inline {
+  display: inline-block;
+}
 .flex {
   display: flex;
 }
@@ -45,6 +47,11 @@
 }
 .top-45px {
   top: 45px;
+}
+.position-center-x {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .green {
   color: rgb(3, 202, 3);

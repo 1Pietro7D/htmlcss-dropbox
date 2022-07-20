@@ -223,10 +223,16 @@ footer a {
   width: calc((100vw - 12px) / 3);
   height: calc((100vw - 12px) / 3);
 }
-.box {
-  width: 50%;
-  height: 50%;
+#principal {
+  min-height: 190px;
+  min-width: 190px;
 }
+.box {
+  width: calc((100vw - 12px) / 6);
+  height: calc((100vw - 12px) / 6);
+}
+/* con questa formula stringendo i quadrati non si deformano ma si sovrappongono */
+
 /*** CLIENT section ***/
 
 /****** /CONTAINER ******/

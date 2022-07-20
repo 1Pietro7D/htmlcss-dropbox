@@ -8,14 +8,6 @@ p {
 
 /* shop */
 
-#tranne {
-  background-color: inherit;
-}
-#tranne > div {
-  width: 30%;
-  height: 400px;
-}
-
 #last-shop {
   height: 100px;
 }

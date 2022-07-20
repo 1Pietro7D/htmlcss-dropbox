@@ -53,6 +53,9 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.pad-30px {
+  padding: 30px;
+}
 .green {
   color: rgb(3, 202, 3);
 }

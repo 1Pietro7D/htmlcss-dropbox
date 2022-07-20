@@ -91,7 +91,7 @@ header img[src="img/jumbo.png"] {
 /*** SHOP section ***/
 
 #shop > * {
-  margin: 6px 0;
+  margin: 2vh 0;
 }
 #shop {
   padding: 2vh 0;
@@ -100,6 +100,19 @@ header img[src="img/jumbo.png"] {
   margin-right: 30px;
   margin-left: 5px;
 }
+.border-grey {
+  border: 1px solid hsl(240deg 4% 83%);
+}
+#shop .user {
+  border-bottom: 1px solid hsl(240deg 4% 83%);
+  padding: 10px;
+}
+#shop .user > i {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /*** /SHOP section ***/
 
 /*** PARTNER section ***/

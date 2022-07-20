@@ -227,8 +227,7 @@ footer .container-80vw {
   background-color: blue;
 }
 
-.box,
-#principal {
+.box {
   border: 5px solid red;
   background-color: blueviolet;
 }

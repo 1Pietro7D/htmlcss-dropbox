@@ -15,12 +15,15 @@ body {
 ul {
   list-style-type: none;
 }
-
+.but {
+  padding: 7px;
+  background-color: initial;
+  border: 1px solid black;
+}
 .b-blue {
   background-color: hsl(217deg 100% 50%);
   color: #fff;
-  padding: 5px;
-  border: 0;
+  border: 0 !important;
 }
 
 /***--- /Generics ---***/
@@ -137,6 +140,10 @@ img[src="img/share.svg"] {
 /*** /SHOP section ***/
 
 /*** PARTNER section ***/
+
+img[alt="partner"] {
+  width: 60%;
+}
 
 /*** /PARTNER section ***/
 

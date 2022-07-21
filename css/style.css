@@ -132,7 +132,7 @@ img[src="img/share.svg"] {
   width: 17px;
 }
 
-.highlights-plan li::before {
+.highlights-plan .check::before {
   content: "\2713";
   color: hsl(217deg 100% 50%);
 }

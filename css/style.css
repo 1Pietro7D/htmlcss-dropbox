@@ -136,7 +136,9 @@ img[src="img/share.svg"] {
   content: "\2713";
   color: hsl(217deg 100% 50%);
 }
-
+#shop li {
+  margin: 20px 0;
+}
 /*** /SHOP section ***/
 
 /*** PARTNER section ***/

@@ -48,13 +48,22 @@ ul {
 
 header nav {
   position: fixed; /* attenzione esce dal flusso, compromesso: dare un valore di altezza fisso e dare un margin top equivalente */
-  padding: 10px 30px;
+  padding: 0 30px;
   background-color: #fff;
   z-index: 1;
+  height: 52px;
+  line-height: 52px;
 }
 nav a {
   text-decoration: none;
   color: black;
+  display: inline-block;
+}
+img[alt="home-logo"] {
+  vertical-align: middle;
+}
+li {
+  display: flex;
 }
 header > nav > ul {
   column-gap: 30px;

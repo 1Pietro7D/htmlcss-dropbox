@@ -166,6 +166,9 @@ img[alt="partner"] {
 
 /*** CLIENT section ***/
 
+#brings-dropbox > h3 {
+  color: hsl(332deg 85% 21%);
+}
 /*** /CLIENT section ***/
 
 /*** QUERY section ***/
@@ -178,10 +181,12 @@ img[alt="partner"] {
   border-top: 2px solid gray;
   padding: 40px 0;
 }
+#query > details > p {
+  padding-top: 40px;
+}
 
 #query > details:last-child {
   border-bottom: 2px solid gray;
-  margin-bottom: 40px;
 }
 
 /*** /QUERY section ***/
@@ -223,7 +228,7 @@ footer a {
   width: calc((100vw - 12px) / 3);
   height: calc((100vw - 12px) / 3);
 }
-#principal {
+#principal-box {
   padding: 5%;
   overflow-y: scroll;
 }
@@ -234,6 +239,9 @@ footer a {
 .box > img {
   width: 60%;
   filter: invert(1); /* non mi ricordo come si cambia colore a un svg :( */
+}
+#principal-box > img[alt="designit"] {
+  width: 60%;
 }
 
 /*** CLIENT section ***/

@@ -54,14 +54,15 @@
 .grid {
   display: grid;
 }
-.relative {
-  position: relative;
-}
+
 .top-45px {
   top: 45px;
 }
 .base30 {
   flex-basis: 30%;
+}
+.relative {
+  position: relative;
 }
 .position-center-x {
   position: relative;
@@ -91,6 +92,20 @@
 }
 .green {
   color: rgb(3, 202, 3);
+}
+.float-sx {
+  float: left;
+}
+.float-dx {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.width40 {
+  width: 40%;
 }
 
 /***** /UTILITIES *****/

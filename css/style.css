@@ -143,6 +143,8 @@ img[src="img/share.svg"] {
 
 img[alt="partner"] {
   width: 60%;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 /*** /PARTNER section ***/
@@ -198,12 +200,40 @@ img[alt="partner"] {
 footer {
   background-color: black;
   color: #fff;
+  border-bottom: 1px solid white;
 }
+
 footer a {
   text-decoration: none;
   color: #fff;
 }
 
+#footer-box {
+  gap: 30px;
+}
+
+footer nav > h5 {
+  padding: 20px 0;
+  font-size: medium;
+}
+footer nav > ul {
+  line-height: 30px;
+}
+#lang-box {
+  padding: 45px 0;
+  border-top: 2px solid white;
+  display: inline-block;
+}
+select#language {
+  background-color: black;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 5px;
+  padding: 5px;
+}
+select#language:hover {
+  border-color: white;
+}
 /****** /FOOTER ******/
 
 /****** CONTAINER ******/
@@ -247,10 +277,6 @@ footer a {
 /*** CLIENT section ***/
 
 /****** /CONTAINER ******/
-
-footer .container-80vw {
-  background-color: blue;
-}
 
 .box {
   border: 5px solid red;

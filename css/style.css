@@ -86,6 +86,10 @@ button[value="start-trial"] {
 header img[src="img/jumbo.png"] {
   width: 100%;
 }
+#jumbo-arrow {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
 
 /****** /HEADER ******/
 
@@ -142,11 +146,13 @@ img[src="img/share.svg"] {
 /*** /SHOP section ***/
 
 /*** PARTNER section ***/
+#partner > * {
+  margin: 30px 30px 30px 0;
+  vertical-align: auto;
+}
 
 img[alt="partner"] {
   width: 60%;
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
 
 /*** /PARTNER section ***/
@@ -236,23 +242,11 @@ select#language {
 select#language:hover {
   border-color: white;
 }
+
+header nav li {
+  display: inline-block;
+}
 /****** /FOOTER ******/
-
-/****** CONTAINER ******/
-
-.container-max {
-  width: calc(100vw - 12px); /* 12px sono la scrollbar! */
-}
-
-.container-80vw {
-  width: 80vw;
-  margin: auto;
-}
-
-.container-70vw {
-  width: 70vw;
-  margin: auto;
-}
 
 /*** CLIENT section ***/
 

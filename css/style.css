@@ -7,6 +7,9 @@
 }
 
 /* /reset */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -15,12 +18,19 @@ body {
 ul {
   list-style-type: none;
 }
-.but {
+
+li > a {
+  text-decoration: none;
+}
+
+.btn {
   padding: 7px;
   background-color: initial;
   border: 1px solid black;
+  text-decoration: none;
+  text-align: center;
 }
-.b-blue {
+.btn-blue {
   background-color: hsl(217deg 100% 50%);
   color: #fff;
   border: 0 !important;
@@ -55,22 +65,20 @@ header nav {
   line-height: 52px;
 }
 nav a {
-  text-decoration: none;
   color: black;
   display: inline-block;
 }
 img[alt="home-logo"] {
   vertical-align: middle;
 }
-li {
-  display: flex;
-}
+
 header > nav > ul {
   column-gap: 30px;
 }
 
-button[value="get-start"] {
+a[value="get-start"] {
   font-size: 1.2em;
+  display: inline;
 }
 
 #start-pages {
@@ -82,7 +90,7 @@ button[value="get-start"] {
 .top-45px > article {
   padding-bottom: 45px;
 }
-button[value="start-trial"] {
+a[value="start-trial"] {
   flex-grow: 0;
 }
 #start-pages article {
@@ -185,6 +193,26 @@ img[alt="partner"] {
 
 /*** CLIENT section ***/
 
+#logo-grid > .container-box {
+  width: calc((100vw - 12px) / 3);
+  height: calc((100vw - 12px) / 3);
+}
+#principal-box {
+  padding: 5%;
+  overflow-y: scroll;
+}
+.box {
+  width: 50%;
+  height: 50%;
+}
+.box > img {
+  width: 60%;
+  filter: invert(1); /* non mi ricordo come si cambia colore a un svg :( */
+}
+#principal-box > img[alt="designit"] {
+  width: 60%;
+}
+
 #brings-dropbox > h3 {
   color: hsl(332deg 85% 21%);
 }
@@ -256,30 +284,6 @@ header nav li {
   display: inline-block;
 }
 /****** /FOOTER ******/
-
-/*** CLIENT section ***/
-
-#logo-grid > .container-box {
-  width: calc((100vw - 12px) / 3);
-  height: calc((100vw - 12px) / 3);
-}
-#principal-box {
-  padding: 5%;
-  overflow-y: scroll;
-}
-.box {
-  width: 50%;
-  height: 50%;
-}
-.box > img {
-  width: 60%;
-  filter: invert(1); /* non mi ricordo come si cambia colore a un svg :( */
-}
-#principal-box > img[alt="designit"] {
-  width: 60%;
-}
-
-/*** CLIENT section ***/
 
 /****** /CONTAINER ******/
 

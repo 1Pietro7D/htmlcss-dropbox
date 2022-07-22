@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="img/Transparent-Dropbox-Logo.png" />
-    <title>dropbox</title>
+    <title>Dropbox</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -23,11 +23,11 @@
     <header class="flex column">
       <!-- NAV FIXED -->
       <nav class="flex j-between container-max">
+        <!-- eccetto l'img gli altri elementi si centrano sfruttando line-height -->
         <!-- first list -->
-
-        <ul class="flex al-center">
+        <ul class="flex">
           <li>
-            <a href="index.html"
+            <a class="not" href="index.html"
               ><img src="img/logo-small.png" alt="home-logo"
             /></a>
           </li>
@@ -39,15 +39,15 @@
         <!-- first list -->
         <!-- second list -->
 
-        <ul class="flex al-center">
+        <ul class="flex">
           <li><a href="#">Support</a></li>
           <li><a href="#">Contacts</a></li>
           <li><a href="#">Sing in</a></li>
           <li><a href="#">Log in</a></li>
           <li>
-            <button class="but b-blue" value="get-start">
+            <a href="#" class="btn btn-blue not" value="get-start">
               Get started right away
-            </button>
+            </a>
           </li>
         </ul>
         <!-- /second list -->
@@ -68,9 +68,9 @@
                 et!
               </p>
               <div>
-                <button class="but b-blue" value="start-trial">
+                <a href="#" class="btn btn-blue" value="start-trial">
                   Start your free trial
-                </button>
+                </a>
               </div>
               <p>cancel at any time</p>
               <i class="fa-solid fa-arrow-down" id="jumbo-arrow"></i>
@@ -126,7 +126,7 @@
                   <span>Single</span>
                 </div>
               </div>
-              <div class="flex column pad-30px">
+              <div class="flex column pad-30px gap-20px">
                 <h3>Single</h3>
                 <span class="price">18.00</span>
                 <span class="season">/mese</span>
@@ -147,11 +147,7 @@
                   </li>
                   <li>
                     <div class="flex">
-                      <img
-                        src="img/share.svg"
-                        class="items-start"
-                        alt="share"
-                      />
+                      <img src="img/share.svg" class="self-start" alt="share" />
                       <!-- essendo un immagine, per non so quale motivo si auto centra allora la allineo al punto di partenza, penso che non sia corretto-->
                       <span>
                         Premium productivity features and simple and secure file
@@ -161,7 +157,7 @@
                   </li>
                 </ul>
                 <!-- benefits list-->
-                <button class="but b-blue">Free trial for 30 days</button>
+                <a href="#" class="btn btn-blue">Free trial for 30 days</a>
                 <span>or <a href="#">buy now</a></span>
                 <hr />
 
@@ -229,7 +225,7 @@
               </div>
               <div class="flex column base30 pad-30px shrink0">
                 <!-- sfrutto column per stretchare l'elemento -->
-                <button class="but b-blue">Contact the sales office</button>
+                <a href="#" class="btn btn-blue">Contact the sales office</a>
               </div>
             </div>
           </div>
@@ -249,7 +245,7 @@
             dolorem mollitia, nobis ducimus architecto hic vitae quidem quia
             perferendis praesentium.
           </p>
-          <button class="but">Find a partner</button>
+          <a class="btn">Find a partner</a>
         </section>
 
         <!-- PARTNER -->
@@ -419,7 +415,7 @@
           id="brings-dropbox"
         >
           <h3>Brings dropbox into your business</h3>
-          <button class="but" value="start-trial">Start your free trial</button>
+          <a class="btn" value="start-trial">Start your free trial</a>
         </div>
       </section>
 

@@ -1,3 +1,20 @@
+/****** CONTAINER ******/
+
+.container-max {
+  width: calc(100vw - 12px); /* 12px sono la scrollbar! */
+}
+
+.container-80vw {
+  width: 80vw;
+  margin: auto;
+}
+
+.container-70vw {
+  width: 70vw;
+  margin: auto;
+}
+/****** /CONTAINER ******/
+
 /***** display *****/
 .inherit {
   display: inherit;
@@ -209,9 +226,7 @@
 .al-cont-around {
   align-content: space-around;
 }
-.al-cont-between {
-  align-content: space-between;
-}
+
 .al-cont-stretch {
   align-content: stretch;
 }
@@ -355,20 +370,8 @@
   width: 40%;
 }
 
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
 /***** /UTILITIES *****/
-
-/****** CONTAINER ******/
-
-.container-max {
-  width: calc(100vw - 12px); /* 12px sono la scrollbar! */
-}
-
-.container-80vw {
-  width: 80vw;
-  margin: auto;
-}
-
-.container-70vw {
-  width: 70vw;
-  margin: auto;
-}
